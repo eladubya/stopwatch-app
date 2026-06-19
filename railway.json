@@ -1,1 +1,9 @@
-{"$schema": "https://schema.railway.com/railway.json", "build": {"builder": "NIXPACKS"}, "deploy": {"startCommand": "npx serve ."}}
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python3 -m http.server $PORT"
+  }
+}
+
