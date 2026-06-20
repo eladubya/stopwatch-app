@@ -3,7 +3,8 @@
     "allow": [
       "Bash(npm --version)",
       "Bash(git --version)",
-      "Bash(gh --version)"
+      "Bash(gh --version)",
+      "mcp__Claude_Preview__preview_start"
     ]
   }
 }
